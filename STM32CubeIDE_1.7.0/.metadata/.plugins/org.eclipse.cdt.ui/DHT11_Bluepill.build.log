@@ -1,0 +1,10 @@
+13:21:58 **** Incremental Build of configuration Debug for project DHT11_Bluepill ****
+make -j8 all 
+arm-none-eabi-size   DHT11_Bluepill.elf 
+   text	   data	    bss	    dec	    hex	filename
+   9264	     20	   1668	  10952	   2ac8	DHT11_Bluepill.elf
+Finished building: default.size.stdout
+ 
+
+13:21:58 Build Finished. 0 errors, 0 warnings. (took 545ms)
+
