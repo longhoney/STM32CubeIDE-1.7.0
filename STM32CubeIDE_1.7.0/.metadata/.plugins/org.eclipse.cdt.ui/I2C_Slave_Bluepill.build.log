@@ -1,0 +1,10 @@
+04:54:26 **** Incremental Build of configuration Debug for project I2C_Slave_Bluepill ****
+make -j8 all 
+arm-none-eabi-size   I2C_Slave_Bluepill.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6644	     20	   1660	   8324	   2084	I2C_Slave_Bluepill.elf
+Finished building: default.size.stdout
+ 
+
+04:54:28 Build Finished. 0 errors, 0 warnings. (took 1s.940ms)
+
