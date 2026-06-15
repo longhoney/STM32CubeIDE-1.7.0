@@ -1,31 +1,21 @@
-20:53:16 **** Incremental Build of configuration Debug for project I2C_Slave_Bluepill ****
+05:42:15 **** Incremental Build of configuration Debug for project I2C_Slave_Bluepill ****
 make -j8 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
-arm-none-eabi-gcc -o "I2C_Slave_Bluepill.elf" @"objects.list"   -mcpu=cortex-m3 -T"E:\Work\Git\Github\longhoney\STM32CubeIDE-1.7.0\STM32CubeIDE_1.7.0\I2C_Slave_Bluepill\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="I2C_Slave_Bluepill.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: I2C_Slave_Bluepill.elf
- 
 arm-none-eabi-size   I2C_Slave_Bluepill.elf 
-arm-none-eabi-objdump -h -S  I2C_Slave_Bluepill.elf  > "I2C_Slave_Bluepill.list"
-arm-none-eabi-objcopy  -O binary  I2C_Slave_Bluepill.elf  "I2C_Slave_Bluepill.bin"
    text	   data	    bss	    dec	    hex	filename
-   6644	     20	   1660	   8324	   2084	I2C_Slave_Bluepill.elf
+   6768	     20	   1660	   8448	   2100	I2C_Slave_Bluepill.elf
 Finished building: default.size.stdout
  
-Finished building: I2C_Slave_Bluepill.bin
- 
-Finished building: I2C_Slave_Bluepill.list
- 
-20:54:52 **** Incremental Build of configuration Debug for project I2C_Slave_Bluepill ****
+05:42:31 **** Incremental Build of configuration Debug for project I2C_Slave_Bluepill ****
 make -j8 all 
 arm-none-eabi-size   I2C_Slave_Bluepill.elf 
    text	   data	    bss	    dec	    hex	filename
-   6644	     20	   1660	   8324	   2084	I2C_Slave_Bluepill.elf
+   6768	     20	   1660	   8448	   2100	I2C_Slave_Bluepill.elf
 Finished building: default.size.stdout
  
-04:54:26 **** Incremental Build of configuration Debug for project I2C_Slave_Bluepill ****
+05:46:45 **** Incremental Build of configuration Debug for project I2C_Slave_Bluepill ****
 make -j8 all 
 arm-none-eabi-size   I2C_Slave_Bluepill.elf 
    text	   data	    bss	    dec	    hex	filename
-   6644	     20	   1660	   8324	   2084	I2C_Slave_Bluepill.elf
+   6768	     20	   1660	   8448	   2100	I2C_Slave_Bluepill.elf
 Finished building: default.size.stdout
  
