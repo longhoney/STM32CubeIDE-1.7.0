@@ -2946,3 +2946,21 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64 E:\Work\Git\Github\lon
 
 !ENTRY org.eclipse.cdt.core 1 0 2026-06-16 05:03:58.370
 !MESSAGE Indexed 'i2c_slave' (19 sources, 106 headers) in 6.69 sec: 8,047 declarations; 35,836 references; 6 unresolved inclusions; 716 syntax errors; 1,031 unresolved names (2.3%)
+!SESSION 2026-06-16 05:54:40.905 -----------------------------------------------
+eclipse.buildId=Version 1.7.0
+java.version=11.0.10
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_HK
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2026-06-16 05:55:09.030
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2026-06-16 05:55:09.121
+!MESSAGE Log4j initialized with config file E:\Work\Git\Github\longhoney\STM32CubeIDE-1.7.0\STM32CubeIDE_1.7.0\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2026-06-16 05:55:31.693
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2026-06-16 05:57:47.421
+!MESSAGE Indexed 'I2C_Slave_Interupt_Bluepill' (20 sources, 79 headers) in 6.15 sec: 4,448 declarations; 24,716 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0069%)
